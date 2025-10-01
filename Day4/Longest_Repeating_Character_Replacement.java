@@ -13,7 +13,7 @@ public class Longest_Repeating_Character_Replacement {
 	public static int characterReplacement(String s, int k) {
         int[] freq = new int[26];
         int left = 0;
-        int n = s.length();;
+        int n = s.length();
         int maxLen = 0;
         int maxCount = 0;
         for(int right = 0; right < n; right++){
